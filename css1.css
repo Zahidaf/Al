@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffffff;
+}
+
+/* NAV START */
+nav {
+    display: flex;
+    height: 9vh;
+    background-color: #f5eded;
+    font-size: 1.1em;
+}
+
+nav div {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+nav .left {
+    justify-content: flex-start;
+    margin-left: 5%;
+    align-items: center;
+}
+
+nav .left a {
+    text-decoration: none;
+    color: black;
+}
+
+/* nav .left ul a, nav .left img{
+    
+} */
+
+nav .left ul {
+    margin-left: 30px;
+}
+
+nav .left li {
+    display: inline;
+    padding: 10px;
+}
+
+nav .left img {
+    width: 60px;
+}
+
+nav .right {
+    justify-content: flex-end;
+    margin-right: 5%;
+}
+
+nav .right a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+/* NAV END */
+.jok{
+    background-image: url(asset/persis.png);
+    height: 700px;
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment:scroll ;
+
+}
+.asu{
+    height: 145px;
+    background-color: green;
+}
+
+.mus{
+    width: 700px;
+    height: 700px;
+    padding: 90px 90px 40px 90px;
+    border: solid 10px red;
+    margin: 10px 90px 30px 200px;
+}
+.ucok{
+    padding: 10px 20px 30px 40px;
+}
+
+
